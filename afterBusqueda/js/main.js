@@ -24,7 +24,7 @@ function Servicio(nombre, precio, img) {
   this.id = servicios.length + 1;
   this.nombre = nombre;
   this.precio = parseFloat(precio);
-  if (this.img === undefined) {
+  if (this.img === "") {
     this.img = "https://via.placeholder.com/300";
   } else {
     this.img = img;
