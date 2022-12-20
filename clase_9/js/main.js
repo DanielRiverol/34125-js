@@ -160,4 +160,5 @@ contenedor.innerHTML = html;
 }
 
 /* Pregunta... 
-Que sucede si el elemento es undefined? */
+Que sucede si el elemento es undefined?
+Hay que validar */
