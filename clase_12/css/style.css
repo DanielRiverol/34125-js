@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+span {
+    font-family: 'Anton', sans-serif;
+
+    letter-spacing: 5px;
+    background-color: #e0ff00;
+    padding: 0 0.4rem;
+    font-style: italic;
+}
+
+.box {
+    padding: 5px;
+    border: .14rem solid rgb(30, 214, 36);
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid ;
+    padding: 20px;
+}
+.card form input{
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+.card-action {
+    max-width: 100%;
+}
+
+#mensaje {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.error{
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.contenedor{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
