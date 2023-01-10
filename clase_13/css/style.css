@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1 span {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    background-color: #e0ff00;
+    padding: 0 0.4rem;
+    font-style: italic;
+}
+
+.contenedor hr {
+    margin: 10px;
+    width: 100%;
+    color: #000000;
+}
+
+.box {
+    padding: 5px;
+    border: .14rem solid rgb(30, 214, 36);
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.card form input {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.card-action {
+    max-width: 100%;
+}
+
+#mensaje {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.error {
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.contenedor {
+    font-size: 1.3rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-3 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 8px;
+    width: 8rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-lg {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.btn-success {
+    background-color: rgb(110, 186, 110);
+    color: white;
+}
+
+.btn-normal {
+    background-color: rgb(123, 127, 246);
+}
+
+.btn-warn {
+    background-color: rgb(226, 246, 123);
+}
+
+.credit-card {
+    border: .7px solid #777;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.form-control input, input[type="date"] {
+    font-size: 1.3rem;
+}
+
+input, input#horaActual {
+    font-size: 2rem;
+    border-radius: 3.5px;
+    border: .18rem solid #777;
+    padding: 5px 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4085f4;
+}
+
+.icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 2rem;
+    opacity: .5;
+    transition: all .58s ease;
+}
+
+i.active {
+    opacity: 1;
+    font-size: 2.1rem;
+    color: rgb(2, 5, 49);
+}
+
+.form-control {
+    padding: 5px;
+}
+
+.form-control input#ccv {
+    width: 38px;
+}
